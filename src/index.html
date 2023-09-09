@@ -123,12 +123,13 @@
                        onclick="display.value += '2'"  style="background-color:  rgb(244, 197, 140);"></td>
             <td><input type="button" value="3"
                        onclick="display.value += '3'"  style="background-color: rgb(244, 197, 140) ;"></td>
-            <td><input type="button" value="C"
-                       onclick="display.value = ''"></td>
+           <td ><input  type="button" value="=" 
+                        onclick="calculate()"  style="background-color:rgb(198, 143, 250);"></td>
             <td><input type="button" value="⌫"
-                       onclick="backspace()"></td>
-            <td ><input  type="button" value="=" 
-                       onclick="calculate()"  style="background-color:rgb(198, 143, 250);"></td>
+                       onclick="backspace()"  style="text-shadow: -2px 2px 4px "></td>
+             <td><input type="button" value="C"
+                        onclick="display.value = ''" style="text-shadow: -2px 2px 4px "></td>
+            
         </tr>
         <tr>
             <td><input type="button" value="4"
@@ -138,9 +139,9 @@
             <td><input type="button" value="6"
                        onclick="display.value += '6'"  style="background-color:  rgb(244, 197, 140);"></td>
             <td><input type="button" value="-"
-                       onclick="display.value += '-'"></td>
+                       onclick="display.value += '-'"  ></td>
             <td><input type="button" value="%"
-                       onclick="display.value += '%'"></td>
+                       onclick="display.value += '%'" ></td>
             <td><input type="button" value="cos("
                        onclick="display.value += 'cos('"></td>
         </tr>
@@ -152,9 +153,9 @@
             <td><input type="button" value="9"
                        onclick="display.value += '9'"  style="background-color:  rgb(244, 197, 140);"></td>
             <td><input type="button" value="x"
-                       onclick="display.value += '*'"></td>
+                       onclick="display.value += '*'" ></td>
             <td><input type="button" value="!"
-                       onclick="display.value += '!'"></td>
+                       onclick="display.value += '!'" ></td>
             <td><input type="button" value="sin("
                        onclick="display.value += 'sin('"></td>
         </tr>
@@ -162,21 +163,21 @@
             <td><input type="button" value="."
                        onclick="display.value += '.'"></td>
             <td><input type="button" value="0"
-                       onclick="display.value += '0'"></td>
+                       onclick="display.value += '0'" ></td>
             <td><input type="button" value=","
-                       onclick="display.value += ','"></td>
+                       onclick="display.value += ','"  ></td>
             <td><input type="button" value="+"
-                       onclick="display.value += '+'"></td>
+                       onclick="display.value += '+'"  ></td>
             <td><input type="button" value="/"
-                       onclick="display.value += '/'"></td>
+                       onclick="display.value += '/'"  ></td>
             <td><input type="button" value="tan("
                        onclick="display.value += 'tan('"></td>
         </tr>
         <tr>
             <td><input type="button" value="E"
-                       onclick="e()"></td>
+                       onclick="e()" ></td>
             <td><input type="button" value="pi"
-                       onclick="pi()"></td>
+                       onclick="pi()" ></td>
             <td><input type="button" value="^"
                        onclick="power()"></td>
             <td><input type="button" value="("
